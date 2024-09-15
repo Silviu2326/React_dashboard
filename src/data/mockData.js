@@ -23,7 +23,7 @@ export const mockDataTeam = [
     email: "jaimelannister@gmail.com",
     age: 45,
     phone: "(422)982-6739",
-    access: "user",
+    access: "usuario",
   },
   {
     id: 4,
@@ -39,7 +39,7 @@ export const mockDataTeam = [
     email: "daenerystargaryen@gmail.com",
     age: 31,
     phone: "(421)445-1189",
-    access: "user",
+    access: "usuario",
   },
   {
     id: 6,
@@ -55,7 +55,7 @@ export const mockDataTeam = [
     email: "ferraraclifford@gmail.com",
     age: 44,
     phone: "(543)124-0123",
-    access: "user",
+    access: "usuario",
   },
   {
     id: 8,
@@ -63,7 +63,7 @@ export const mockDataTeam = [
     email: "rossinifrances@gmail.com",
     age: 36,
     phone: "(222)444-5555",
-    access: "user",
+    access: "usuario",
   },
   {
     id: 9,
@@ -83,7 +83,7 @@ export const mockDataContacts = [
     age: 35,
     phone: "(665)121-5454",
     address: "0912 Won Street, Alabama, SY 10001",
-    city: "New York",
+    city: "Nueva York",
     zipCode: "10001",
     registrarId: 123512,
   },
@@ -93,8 +93,8 @@ export const mockDataContacts = [
     email: "cerseilannister@gmail.com",
     age: 42,
     phone: "(421)314-2288",
-    address: "1234 Main Street, New York, NY 10001",
-    city: "New York",
+    address: "1234 Main Street, Nueva York, NY 10001",
+    city: "Nueva York",
     zipCode: "13151",
     registrarId: 123512,
   },
@@ -105,7 +105,7 @@ export const mockDataContacts = [
     age: 45,
     phone: "(422)982-6739",
     address: "3333 Want Blvd, Estanza, NAY 42125",
-    city: "New York",
+    city: "Nueva York",
     zipCode: "87281",
     registrarId: 4132513,
   },
@@ -115,8 +115,8 @@ export const mockDataContacts = [
     email: "anyastark@gmail.com",
     age: 16,
     phone: "(921)425-6742",
-    address: "1514 Main Street, New York, NY 22298",
-    city: "New York",
+    address: "1514 Main Street, Nueva York, NY 22298",
+    city: "Nueva York",
     zipCode: "15551",
     registrarId: 123512,
   },
@@ -436,7 +436,7 @@ export const mockLineData = [
     color: tokens("dark").greenAccent[500],
     data: [
       {
-        x: "plane",
+        x: "avión",
         y: 101,
       },
       {
@@ -444,15 +444,15 @@ export const mockLineData = [
         y: 75,
       },
       {
-        x: "boat",
+        x: "barco",
         y: 36,
       },
       {
-        x: "train",
+        x: "tren",
         y: 216,
       },
       {
-        x: "subway",
+        x: "metro",
         y: 35,
       },
       {
@@ -460,7 +460,7 @@ export const mockLineData = [
         y: 236,
       },
       {
-        x: "car",
+        x: "coche",
         y: 88,
       },
       {
@@ -468,19 +468,19 @@ export const mockLineData = [
         y: 232,
       },
       {
-        x: "bicycle",
+        x: "bicicleta",
         y: 281,
       },
       {
-        x: "horse",
+        x: "caballo",
         y: 1,
       },
       {
-        x: "skateboard",
+        x: "patineta",
         y: 35,
       },
       {
-        x: "others",
+        x: "otros",
         y: 14,
       },
     ],
@@ -490,7 +490,7 @@ export const mockLineData = [
     color: tokens("dark").blueAccent[300],
     data: [
       {
-        x: "plane",
+        x: "avión",
         y: 212,
       },
       {
@@ -498,15 +498,15 @@ export const mockLineData = [
         y: 190,
       },
       {
-        x: "boat",
+        x: "barco",
         y: 270,
       },
       {
-        x: "train",
+        x: "tren",
         y: 9,
       },
       {
-        x: "subway",
+        x: "metro",
         y: 75,
       },
       {
@@ -514,7 +514,7 @@ export const mockLineData = [
         y: 175,
       },
       {
-        x: "car",
+        x: "coche",
         y: 33,
       },
       {
@@ -522,19 +522,19 @@ export const mockLineData = [
         y: 189,
       },
       {
-        x: "bicycle",
+        x: "bicicleta",
         y: 97,
       },
       {
-        x: "horse",
+        x: "caballo",
         y: 87,
       },
       {
-        x: "skateboard",
+        x: "patineta",
         y: 299,
       },
       {
-        x: "others",
+        x: "otros",
         y: 251,
       },
     ],
@@ -544,7 +544,7 @@ export const mockLineData = [
     color: tokens("dark").redAccent[200],
     data: [
       {
-        x: "plane",
+        x: "avión",
         y: 191,
       },
       {
@@ -552,15 +552,15 @@ export const mockLineData = [
         y: 136,
       },
       {
-        x: "boat",
+        x: "barco",
         y: 91,
       },
       {
-        x: "train",
+        x: "tren",
         y: 190,
       },
       {
-        x: "subway",
+        x: "metro",
         y: 211,
       },
       {
@@ -568,7 +568,7 @@ export const mockLineData = [
         y: 152,
       },
       {
-        x: "car",
+        x: "coche",
         y: 189,
       },
       {
@@ -576,24 +576,25 @@ export const mockLineData = [
         y: 152,
       },
       {
-        x: "bicycle",
+        x: "bicicleta",
         y: 8,
       },
       {
-        x: "horse",
+        x: "caballo",
         y: 197,
       },
       {
-        x: "skateboard",
+        x: "patineta",
         y: 107,
       },
       {
-        x: "others",
+        x: "otros",
         y: 170,
       },
     ],
   },
 ];
+
 
 export const mockGeographyData = [
   {

@@ -13,7 +13,7 @@ const Form = () => {
 
   return (
     <Box m="20px">
-      <Header title="CREATE USER" subtitle="Create a New User Profile" />
+      <Header title="CREAR USUARIO" subtitle="Crear un Nuevo Perfil de Usuario" />
 
       <Formik
         onSubmit={handleFormSubmit}
@@ -41,7 +41,7 @@ const Form = () => {
                 fullWidth
                 variant="filled"
                 type="text"
-                label="First Name"
+                label="Nombre"
                 onBlur={handleBlur}
                 onChange={handleChange}
                 value={values.firstName}
@@ -54,7 +54,7 @@ const Form = () => {
                 fullWidth
                 variant="filled"
                 type="text"
-                label="Last Name"
+                label="Apellido"
                 onBlur={handleBlur}
                 onChange={handleChange}
                 value={values.lastName}
@@ -67,7 +67,7 @@ const Form = () => {
                 fullWidth
                 variant="filled"
                 type="text"
-                label="Email"
+                label="Correo Electrónico"
                 onBlur={handleBlur}
                 onChange={handleChange}
                 value={values.email}
@@ -80,7 +80,7 @@ const Form = () => {
                 fullWidth
                 variant="filled"
                 type="text"
-                label="Contact Number"
+                label="Número de Contacto"
                 onBlur={handleBlur}
                 onChange={handleChange}
                 value={values.contact}
@@ -93,7 +93,7 @@ const Form = () => {
                 fullWidth
                 variant="filled"
                 type="text"
-                label="Address 1"
+                label="Dirección 1"
                 onBlur={handleBlur}
                 onChange={handleChange}
                 value={values.address1}
@@ -106,7 +106,7 @@ const Form = () => {
                 fullWidth
                 variant="filled"
                 type="text"
-                label="Address 2"
+                label="Dirección 2"
                 onBlur={handleBlur}
                 onChange={handleChange}
                 value={values.address2}
@@ -118,7 +118,7 @@ const Form = () => {
             </Box>
             <Box display="flex" justifyContent="end" mt="20px">
               <Button type="submit" color="secondary" variant="contained">
-                Create New User
+                Crear Nuevo Usuario
               </Button>
             </Box>
           </form>
@@ -132,15 +132,15 @@ const phoneRegExp =
   /^((\+[1-9]{1,4}[ -]?)|(\([0-9]{2,3}\)[ -]?)|([0-9]{2,4})[ -]?)*?[0-9]{3,4}[ -]?[0-9]{3,4}$/;
 
 const checkoutSchema = yup.object().shape({
-  firstName: yup.string().required("required"),
-  lastName: yup.string().required("required"),
-  email: yup.string().email("invalid email").required("required"),
+  firstName: yup.string().required("Requerido"),
+  lastName: yup.string().required("Requerido"),
+  email: yup.string().email("Correo inválido").required("Requerido"),
   contact: yup
     .string()
-    .matches(phoneRegExp, "Phone number is not valid")
-    .required("required"),
-  address1: yup.string().required("required"),
-  address2: yup.string().required("required"),
+    .matches(phoneRegExp, "Número de teléfono no válido")
+    .required("Requerido"),
+  address1: yup.string().required("Requerido"),
+  address2: yup.string().required("Requerido"),
 });
 const initialValues = {
   firstName: "",
